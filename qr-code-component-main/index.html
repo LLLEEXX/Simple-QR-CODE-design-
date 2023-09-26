@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      @import url("(https://fonts.google.com/specimen/Outfit)");
+
+      
+        body {
+          font-family: "Outfit", sans-serif;
+          background-color: hsl(212, 45%, 89%);
+          display: grid;
+          height: 100vh;
+          place-items: center;
+        }
+        #qrCodeCard {
+          border-radius: 1.2rem;
+          text-align: center;
+          padding: 1.2rem;
+          width: 300px;
+          min-width: 200px;
+          background-color: hsl(0, 0%, 100%);
+        }
+
+        #firstSen {
+          font-weight: 700;
+          color: hsl(218, 44%, 22%);
+        }
+
+        #secondSen {
+          color: hsl(220, 15%, 55%);
+          font-weight: 400;
+          font-size: 15px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+
+        #qrCodeImage {
+          width: 100%;
+          height: 100%;
+          border-radius: 0.45rem;
+        }
+        
+    </style>
+  </head>
+  <body>
+    <div id="qrCodeCard">
+      <img type="image/png" src="/images/image-qr-code.png" id="qrCodeImage" />
+      <h2 id="firstSen">Improve your front-end skills by building projects</h2>
+      <p id="secondSen">
+        Scan the QR code to visit Frontend Mentor and take your coding skills to
+        the next level
+      </p>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Lexter</a>.
+    </div>
+  </body>
+</html>
